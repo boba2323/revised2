@@ -1,0 +1,51 @@
+{% block content %} {%
+include "header.html" %}
+
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/home-bg.jpg')"
+>
+
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="site-heading">
+          <h1>A Blog</h1>
+          <span class="subheading">A collection of random musings.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      More data to be inserted
+      <table class="charts-css column">
+
+        <caption> Hits every month </caption>
+
+        <tbody>
+          <tr>
+            <td style="--size: calc( 40 / 100 )"> 40</td>
+          </tr>
+          <tr>
+            <td style="--size: calc( 60 / 100 )"> 60 </td>
+          </tr>
+          <tr>
+            <td style="--size: calc( 75 / 100 )"> 75 </td>
+          </tr>
+          <tr>
+            <td style="--size: calc( 90 / 100 )"> 90 </td>
+          </tr>
+          <tr>
+            <td style="--size: calc( 100 / 100 )"> 100</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+
+{% include "footer.html" %}
+
+{% endblock %}
